@@ -1,3 +1,5 @@
+[English](./README.md) | [中文](./README-zh.md)
+
 # learn-open-code
 
 Deep source-code analysis of **[OpenCode](https://github.com/anomalyco/opencode)** — the open-source AI coding agent CLI built in TypeScript.
