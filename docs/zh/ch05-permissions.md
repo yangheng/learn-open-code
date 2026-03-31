@@ -162,3 +162,7 @@ const rules: Permission.Ruleset = [
 ## 下一章预告
 
 随着对话的进行，消息历史越来越长。当 token 数接近模型上下文限制时，会发生什么？
+
+---
+
+← [上一章：第四章：工具调度](./ch04-tools.md) | [下一章：第六章：上下文管理](./ch06-compaction.md) →

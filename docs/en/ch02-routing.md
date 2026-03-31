@@ -54,3 +54,7 @@ export async function defaultModel() {
 3. **Smart model fallback** — user > config > recent > auto-detect
 
 ## Next: The core loop runs → [Chapter 3](./ch03-core-loop.md)
+
+---
+
+← [上一章：Chapter 1: Entry Point](./ch01-entry-point.md) | [下一章：Chapter 3: The Core Loop](./ch03-core-loop.md) →

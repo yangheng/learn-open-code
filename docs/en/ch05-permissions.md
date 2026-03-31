@@ -66,3 +66,7 @@ if (recentParts.length === 3 && allSameToolAndInput) {
 4. **"reject" is broad**: rejects all pending requests in the session
 
 ## Next: Context management → [Chapter 6](./ch06-compaction.md)
+
+---
+
+← [上一章：Chapter 4: Tool Dispatch](./ch04-tools.md) | [下一章：Chapter 6: Context Management](./ch06-compaction.md) →

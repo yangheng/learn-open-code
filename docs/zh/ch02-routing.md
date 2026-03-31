@@ -168,3 +168,7 @@ export async function defaultModel() {
 ## 下一章预告
 
 Agent 和 Model 都已确定。现在一切就绪，可以进入核心循环了——消息发给 LLM，LLM 回复文本或工具调用，循环往复直到完成。
+
+---
+
+← [上一章：第一章：入口](./ch01-entry-point.md) | [下一章：第三章：核心循环](./ch03-core-loop.md) →

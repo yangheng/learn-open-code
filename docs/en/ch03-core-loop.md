@@ -56,3 +56,7 @@ Key events: `text-delta` (append text), `tool-call` (execute tool), `finish-step
 3. **Manual loop management** — OpenCode doesn't use AI SDK's auto-tool-execution
 
 ## Next: How tools are dispatched → [Chapter 4](./ch04-tools.md)
+
+---
+
+← [上一章：Chapter 2: Routing](./ch02-routing.md) | [下一章：Chapter 4: Tool Dispatch](./ch04-tools.md) →

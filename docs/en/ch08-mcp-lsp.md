@@ -36,3 +36,7 @@ Three transport types: **stdio** (subprocess), **SSE**, **HTTP**. Tools discover
 4. **MCP requires approval**: all MCP tool calls need user confirmation unless configured otherwise
 
 ## Next: Snapshots & undo → [Chapter 9](./ch09-snapshots.md)
+
+---
+
+← [上一章：Chapter 7: Prompt Assembly](./ch07-prompts-skills.md) | [下一章：Chapter 9: Snapshots & Undo](./ch09-snapshots.md) →

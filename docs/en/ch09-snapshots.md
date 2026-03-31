@@ -42,3 +42,7 @@ Snapshot also provides full session diff: which files changed, how many lines ad
 4. **Shadow repo isolation**: doesn't pollute project Git history
 
 ## Next: Architecture → [Chapter 10](./ch10-architecture.md)
+
+---
+
+← [上一章：Chapter 8: External Integration](./ch08-mcp-lsp.md) | [下一章：Chapter 10: Architecture](./ch10-architecture.md) →

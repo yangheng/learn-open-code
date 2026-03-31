@@ -138,3 +138,7 @@ const diffFull = Effect.fn("Snapshot.diffFull")(function* (from: string, to: str
 ## 下一章预告
 
 到目前为止，我们跟踪的都是单个 Session 在单个工作目录中的流程。但 OpenCode 支持 Worktree——在独立的 Git 工作树中并行执行多个任务。最后，为什么 OpenCode 是一个 Server 而不只是 CLI？
+
+---
+
+← [上一章：第八章：外部集成](./ch08-mcp-lsp.md) | [下一章：第十章：并行与架构](./ch10-architecture.md) →

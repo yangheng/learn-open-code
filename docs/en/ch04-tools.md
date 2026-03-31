@@ -65,3 +65,7 @@ ctx = {
 4. **Auto-truncation**: `Truncate.output()` prevents tools from blowing up context
 
 ## Next: Permission system → [Chapter 5](./ch05-permissions.md)
+
+---
+
+← [上一章：Chapter 3: The Core Loop](./ch03-core-loop.md) | [下一章：Chapter 5: Permissions](./ch05-permissions.md) →

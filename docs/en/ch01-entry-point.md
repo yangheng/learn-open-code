@@ -62,3 +62,7 @@ export const prompt = fn(PromptInput, async (input) => {
 3. **User message carries routing info**: `agent` and `model` fields determine what happens next
 
 ## Next: How Agent and Provider are selected → [Chapter 2](./ch02-routing.md)
+
+---
+
+[下一章：Chapter 2: Routing](./ch02-routing.md) →

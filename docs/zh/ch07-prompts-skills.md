@@ -149,3 +149,7 @@ input.agent.prompt ? [input.agent.prompt] : SystemPrompt.provider(input.model)
 ## 下一章预告
 
 内置工具之外，OpenCode 还支持通过 MCP 连接外部工具服务器，以及通过 LSP 获取代码智能。
+
+---
+
+← [上一章：第六章：上下文管理](./ch06-compaction.md) | [下一章：第八章：外部集成](./ch08-mcp-lsp.md) →

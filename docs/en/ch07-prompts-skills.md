@@ -54,3 +54,7 @@ If an agent has a custom `prompt`, it **replaces** (not appends to) the provider
 4. **Cache-friendly**: stable parts first for Anthropic prompt caching
 
 ## Next: MCP + LSP → [Chapter 8](./ch08-mcp-lsp.md)
+
+---
+
+← [上一章：Chapter 6: Context Management](./ch06-compaction.md) | [下一章：Chapter 8: External Integration](./ch08-mcp-lsp.md) →

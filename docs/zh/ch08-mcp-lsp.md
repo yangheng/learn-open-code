@@ -181,3 +181,7 @@ export const diagnostics = async () => {
 ## 下一章预告
 
 LLM 通过工具修改了代码，但改错了怎么办？Snapshot 系统提供了完美的撤销机制。
+
+---
+
+← [上一章：第七章：提示词组装](./ch07-prompts-skills.md) | [下一章：第九章：快照与撤销](./ch09-snapshots.md) →

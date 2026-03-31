@@ -52,3 +52,7 @@ yield* session.updatePart({
 4. **Transparent to user**: auto-compaction + synthetic continue message
 
 ## Next: System prompt assembly → [Chapter 7](./ch07-prompts-skills.md)
+
+---
+
+← [上一章：Chapter 5: Permissions](./ch05-permissions.md) | [下一章：Chapter 7: Prompt Assembly](./ch07-prompts-skills.md) →

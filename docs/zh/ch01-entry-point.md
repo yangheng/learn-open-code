@@ -138,3 +138,7 @@ const info: MessageV2.Info = {
 ## 下一章预告
 
 用户消息已经创建并存入数据库，`loop()` 已经被调用。但 LLM 是哪个？Agent 有什么权限？下一章我们跟进 Agent 和 Provider 的选择过程。
+
+---
+
+[下一章：第二章：路由](./ch02-routing.md) →

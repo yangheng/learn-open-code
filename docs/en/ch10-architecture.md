@@ -61,3 +61,7 @@ CLI input → Session → Agent + Model routing
 ```
 
 Each layer is independent, composed through clear interfaces. This is OpenCode's design philosophy: **each module does one thing, and does it well**.
+
+---
+
+← [上一章：Chapter 9: Snapshots & Undo](./ch09-snapshots.md)

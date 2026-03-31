@@ -162,3 +162,7 @@ const prune = Effect.fn("SessionCompaction.prune")(function* (input) {
 ## 下一章预告
 
 回顾一下：LLM 调用时传入了 `system` 参数。这些系统提示词是怎么组装的？Skill 如何加载？
+
+---
+
+← [上一章：第五章：权限](./ch05-permissions.md) | [下一章：第七章：提示词组装](./ch07-prompts-skills.md) →
