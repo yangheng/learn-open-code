@@ -1,37 +1,51 @@
 [English](./README.md) | [中文](./README-zh.md)
 
-# learn-open-code
+# 📖 Inside OpenCode: Following One Request from Input to Output
 
-Deep source-code analysis of **[OpenCode](https://github.com/anomalyco/opencode)** — the open-source AI coding agent CLI built in TypeScript.
+> Not API docs — a journey. We trace `"fix the bug in auth.ts"` through the entire OpenCode system.
 
-Inspired by [learn-claude-code](https://github.com/shareAI-lab/learn-claude-code), this project dissects OpenCode's architecture through 12 progressive sessions, from the agent loop to the client/server design.
+## Architecture Overview
 
-> 📖 **[中文文档 (推荐)](README-zh.md)** — The Chinese version is the primary, most comprehensive documentation.
+![overview](./docs/images/overview.webp)
 
-## Sessions
-
-| # | Topic | Module | Motto |
-|---|-------|--------|-------|
-| [01](docs/en/s01-agent-loop.md) | Agent Loop | `agent/`, `session/processor.ts` | "Message in, tool out, loop forever" |
-| [02](docs/en/s02-tool-system.md) | Tool System | `tool/` | "Every tool is a `define()` call" |
-| [03](docs/en/s03-provider-system.md) | Provider System | `provider/` | "20+ providers, one `streamText()`" |
-| [04](docs/en/s04-session-management.md) | Session Management | `session/` | "Conversations are database rows" |
-| [05](docs/en/s05-permission-system.md) | Permission System | `permission/` | "Wildcard rules, layered merge" |
-| [06](docs/en/s06-prompt-engineering.md) | Prompt Engineering | `session/prompt/`, `agent/prompt/` | "One persona per model" |
-| [07](docs/en/s07-skill-system.md) | Skill System | `skill/` | "Markdown is capability" |
-| [08](docs/en/s08-mcp-integration.md) | MCP Integration | `mcp/` | "Protocol is interop" |
-| [09](docs/en/s09-lsp-integration.md) | LSP Integration | `lsp/` | "Editor smarts, terminal delivery" |
-| [10](docs/en/s10-plugin-system.md) | Plugin System | `plugin/` | "Hook-driven, infinitely extensible" |
-| [11](docs/en/s11-snapshot-worktree.md) | Snapshot & Worktree | `snapshot/`, `worktree/` | "Edit boldly, revert freely" |
-| [12](docs/en/s12-client-server.md) | Client/Server | `server/`, `bus/` | "CLI is just one client" |
-
-## Quick Start
-
-```bash
-git clone https://github.com/anomalyco/opencode.git
-cd opencode
-ls packages/opencode/src/
 ```
+User types: "fix the bug in auth.ts"
+  → ch01: CLI receives input, creates session
+  → ch02: Agent + Provider selected, model resolved
+  → ch03: Core loop: message → LLM → stop_reason → tool/text
+  → ch04: LLM says tool_use, dispatch to bash/read/write/edit
+  → ch05: Before bash runs, user must approve
+  → ch06: Context overflow → auto-compaction
+  → ch07: System prompt assembled from layers
+  → ch08: MCP external tools + LSP code intelligence
+  → ch09: Something went wrong → undo with snapshots
+  → ch10: Why it's a server, not just a CLI
+```
+
+## Chapters
+
+| Ch | Topic | Key Question |
+|----|-------|-------------|
+| [01](./docs/en/ch01-entry-point.md) | Entry: CLI → Session | How does user input become a session? |
+| [02](./docs/en/ch02-routing.md) | Routing: Agent + Provider | Who handles it? Which model? |
+| [03](./docs/en/ch03-core-loop.md) | Core Loop | What happens inside while(true)? |
+| [04](./docs/en/ch04-tools.md) | Tool Dispatch | What happens after tool_use? |
+| [05](./docs/en/ch05-permissions.md) | Permissions | How is safety enforced? |
+| [06](./docs/en/ch06-compaction.md) | Context Management | What if the conversation is too long? |
+| [07](./docs/en/ch07-prompts-skills.md) | Prompts + Skills | How is the system prompt assembled? |
+| [08](./docs/en/ch08-mcp-lsp.md) | MCP + LSP | How to extend tools and code intelligence? |
+| [09](./docs/en/ch09-snapshots.md) | Snapshots & Undo | What if something goes wrong? |
+| [10](./docs/en/ch10-architecture.md) | Architecture: Worktree + C/S | Why this architecture? |
+
+## How to Read
+
+- **Sequential**: each chapter picks up where the previous one left off
+- **With source code**: every snippet includes file paths
+- **Focus on "Key Insights"**: the summary at the end of each chapter is the gold
+
+## Source
+
+Based on [OpenCode](https://github.com/nicepkg/opencode) source analysis.
 
 ## License
 
