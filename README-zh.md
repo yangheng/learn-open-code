@@ -19,7 +19,7 @@
 
 ## 🏗️ 架构总览
 
-![架构总览](docs/images/00-architecture-overview.png)
+![架构总览](docs/images/00-architecture-overview.webp)
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -65,18 +65,18 @@
 
 | 课程 | 主题 | 核心模块 | 格言 | 信息图 |
 |------|------|----------|------|--------|
-| [S01](docs/zh/s01-agent-loop.md) | Agent 循环 | `agent/`, `session/processor.ts` | "消息进，工具出，循环不止" | ![](docs/images/s01-agent-loop.png) |
-| [S02](docs/zh/s02-tool-system.md) | 工具系统 | `tool/` | "每个工具都是一个 `define()` 调用" | ![](docs/images/s02-tool-system.png) |
-| [S03](docs/zh/s03-provider-system.md) | Provider 系统 | `provider/` | "20+ 供应商，一个 `streamText()`" | ![](docs/images/s03-provider-system.png) |
-| [S04](docs/zh/s04-session-management.md) | 会话管理 | `session/` | "对话即数据库行" | ![](docs/images/s04-session-management.png) |
-| [S05](docs/zh/s05-permission-system.md) | 权限系统 | `permission/` | "通配符规则，分层合并" | ![](docs/images/s05-permission-system.png) |
-| [S06](docs/zh/s06-prompt-engineering.md) | 提示词工程 | `session/prompt/`, `agent/prompt/` | "每个模型一套人格" | ![](docs/images/s06-prompt-engineering.png) |
-| [S07](docs/zh/s07-skill-system.md) | Skill 系统 | `skill/` | "Markdown 即能力" | ![](docs/images/s07-skill-system.png) |
-| [S08](docs/zh/s08-mcp-integration.md) | MCP 集成 | `mcp/` | "协议即互操作" | ![](docs/images/s08-mcp-integration.png) |
-| [S09](docs/zh/s09-lsp-integration.md) | LSP 集成 | `lsp/` | "编辑器智能，终端享用" | ![](docs/images/s09-lsp-integration.png) |
-| [S10](docs/zh/s10-plugin-system.md) | 插件系统 | `plugin/` | "钩子驱动，无限扩展" | ![](docs/images/s10-plugin-system.png) |
-| [S11](docs/zh/s11-snapshot-worktree.md) | 快照与工作树 | `snapshot/`, `worktree/` | "大胆修改，随时回滚" | ![](docs/images/s11-snapshot-worktree.png) |
-| [S12](docs/zh/s12-client-server.md) | 客户端/服务端 | `server/`, `bus/` | "CLI 只是客户端之一" | ![](docs/images/s12-client-server.png) |
+| [S01](docs/zh/s01-agent-loop.md) | Agent 循环 | `agent/`, `session/processor.ts` | "消息进，工具出，循环不止" | ![](docs/images/s01-agent-loop.webp) |
+| [S02](docs/zh/s02-tool-system.md) | 工具系统 | `tool/` | "每个工具都是一个 `define()` 调用" | ![](docs/images/s02-tool-system.webp) |
+| [S03](docs/zh/s03-provider-system.md) | Provider 系统 | `provider/` | "20+ 供应商，一个 `streamText()`" | ![](docs/images/s03-provider-system.webp) |
+| [S04](docs/zh/s04-session-management.md) | 会话管理 | `session/` | "对话即数据库行" | ![](docs/images/s04-session-management.webp) |
+| [S05](docs/zh/s05-permission-system.md) | 权限系统 | `permission/` | "通配符规则，分层合并" | ![](docs/images/s05-permission-system.webp) |
+| [S06](docs/zh/s06-prompt-engineering.md) | 提示词工程 | `session/prompt/`, `agent/prompt/` | "每个模型一套人格" | ![](docs/images/s06-prompt-engineering.webp) |
+| [S07](docs/zh/s07-skill-system.md) | Skill 系统 | `skill/` | "Markdown 即能力" | ![](docs/images/s07-skill-system.webp) |
+| [S08](docs/zh/s08-mcp-integration.md) | MCP 集成 | `mcp/` | "协议即互操作" | ![](docs/images/s08-mcp-integration.webp) |
+| [S09](docs/zh/s09-lsp-integration.md) | LSP 集成 | `lsp/` | "编辑器智能，终端享用" | ![](docs/images/s09-lsp-integration.webp) |
+| [S10](docs/zh/s10-plugin-system.md) | 插件系统 | `plugin/` | "钩子驱动，无限扩展" | ![](docs/images/s10-plugin-system.webp) |
+| [S11](docs/zh/s11-snapshot-worktree.md) | 快照与工作树 | `snapshot/`, `worktree/` | "大胆修改，随时回滚" | ![](docs/images/s11-snapshot-worktree.webp) |
+| [S12](docs/zh/s12-client-server.md) | 客户端/服务端 | `server/`, `bus/` | "CLI 只是客户端之一" | ![](docs/images/s12-client-server.webp) |
 
 ---
 
